@@ -1,7 +1,7 @@
 curl -X POST \
-  -H "Authorization: token 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 " \
+  -H "Authorization: token 'repokey' " \
   -H "Content-Type: application/json" \
-  -d '{"name": "ai-case-study", "description": "Case study for Cisco IBN", "private": false}' \
+  -d '{"name": "remote-repo-name", "description": "good description", "private": false}' \
   https://api.github.com/user/repos
-# git remote add origin https://github.com/ehxewri/"repo-Name"
+# git remote add origin https://github.com/ehxewri/"remote-repo-Name"
 # git push -u origin main
